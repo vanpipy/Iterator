@@ -1,0 +1,32 @@
+{
+  "name": "iterator",
+  "version": "0.1.0",
+  "description": "iterate with promise, generator and iterator itself",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register ./lib/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanpipy/Iterator.git"
+  },
+  "keywords": [
+    "iterator"
+  ],
+  "author": "vanpipy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanpipy/Iterator/issues"
+  },
+  "homepage": "https://github.com/vanpipy/Iterator#readme",
+  "files": [
+    "lib/**"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
